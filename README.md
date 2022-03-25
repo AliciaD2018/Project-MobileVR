@@ -5,3 +5,6 @@ The project is developed in Unity. We use Android to simulate the mobile applica
 ### Cardboard 
 https://developers.google.com/cardboard/develop/unity/quickstart
 * https://github.com/googlevr/cardboard-xr-plugin
+
+Reference:
+* https://github.com/rgonzaleztec/electivaRV/tree/main/guias
