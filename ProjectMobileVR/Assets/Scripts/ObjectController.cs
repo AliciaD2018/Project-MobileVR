@@ -18,6 +18,8 @@ public class ObjectController : MonoBehaviour
     public AudioSource audioCapsula;
     public TextMeshPro hitText;
 
+    public bool viendolo;
+
     // The objects are about 1 meter in radius, so the min/max target distance are
     // set so that the objects are always within the room (which is about 5 meters
     // across).
@@ -89,6 +91,12 @@ public class ObjectController : MonoBehaviour
         audioCapsula.Play();
     }
 
+    public void OnPointerEnter3()
+    {
+        SetMaterial(true);
+
+    }
+
     /// <summary>
     /// This method is called by the Main Camera when it stops gazing at this GameObject.
     /// </summary>
@@ -106,6 +114,14 @@ public class ObjectController : MonoBehaviour
         audioCapsula.Stop();
 
     }
+
+    public void OnPointerExit3()
+    {
+        SetMaterial(false);
+
+    }
+
+
     /// <summary>
     /// This method is called by the Main Camera when it is gazing at this GameObject and the screen
     /// is touched.
@@ -127,6 +143,20 @@ public class ObjectController : MonoBehaviour
         if (InactiveMaterial != null && GazedAtMaterial != null)
         {
             _myRenderer.material = gazedAt ? GazedAtMaterial : InactiveMaterial;
+        }
+    }
+
+
+
+    private void SetMaterial2(bool gazedAt)
+    {
+        if (InactiveMaterial != null && GazedAtMaterial != null)
+        {
+            #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+            #else
+		    Application.Quit();
+            #endif
         }
     }
 

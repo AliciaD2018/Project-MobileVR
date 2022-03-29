@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ApplicationManager : MonoBehaviour {
 	
@@ -12,4 +13,9 @@ public class ApplicationManager : MonoBehaviour {
 		Application.Quit();
 		#endif
 	}
+
+	public void GoToPlay()
+    {
+		SceneManager.LoadScene(1);
+    }
 }
