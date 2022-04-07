@@ -78,14 +78,18 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerEnter()
     {
-        SetMaterial(true);
-        hitText.text = "# de Hits: Incrementando"; 
+
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                    Application.Quit();
+        #endif
     }
 
     // <summary>
     /// This method is called by the Main Camera when it starts gazing at this GameObject Capsule.
     /// </summary>
-     public void OnPointerEnter2()
+    public void OnPointerEnter2()
     {
         SetMaterial(true);
         audioCapsula.Play();
@@ -159,5 +163,19 @@ public class ObjectController : MonoBehaviour
             #endif
         }
     }
+
+
+
+    public void OnPointerQuit()
+    {
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+		            Application.Quit();
+        #endif
+    }
+
+
+
 
 }
