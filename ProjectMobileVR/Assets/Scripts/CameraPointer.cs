@@ -74,6 +74,12 @@ public class CameraPointer : MonoBehaviour
                     _gazedAtObject = hit.transform.gameObject;
                     _gazedAtObject.SendMessage("goToMainMenu");
                 }
+                else if(hit.transform.name == "TT_demo_police")
+                {
+                    _gazedAtObject?.SendMessage("onPointerTest");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("goToTest");
+                }
 
 
 
