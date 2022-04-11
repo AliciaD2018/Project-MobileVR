@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: 2c0990b62728a57468a6a9e5d6cb0ccd
+  - enabled: 1
+    path: Assets/Scenes/Situation_explanation.unity
+    guid: 9d2c12126d9a87647b87b5c08fe203b3
+  - enabled: 1
+    path: Assets/Scenes/video_scene.unity
+    guid: bfa6ba8886501f24daddd258e18bdc78
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cdf32a03d962d014cb9ef749480c813f, type: 2}

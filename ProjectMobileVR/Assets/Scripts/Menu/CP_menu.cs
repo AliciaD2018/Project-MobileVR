@@ -22,7 +22,7 @@ using UnityEngine;
 /// <summary>
 /// Sends messages to gazed GameObject.
 /// </summary>
-public class CameraPointer : MonoBehaviour
+public class CP_menu : MonoBehaviour
 {
     private const float _maxDistance = 1000.0f;
     private GameObject _gazedAtObject = null;
@@ -73,12 +73,6 @@ public class CameraPointer : MonoBehaviour
                     _gazedAtObject?.SendMessage("OnPointerExit");
                     _gazedAtObject = hit.transform.gameObject;
                     _gazedAtObject.SendMessage("goToMainMenu");
-                }
-                else if(hit.transform.name == "TT_demo_police")
-                {
-                    _gazedAtObject?.SendMessage("onPointerTest");
-                    _gazedAtObject = hit.transform.gameObject;
-                    _gazedAtObject.SendMessage("goToTest");
                 }
 
 

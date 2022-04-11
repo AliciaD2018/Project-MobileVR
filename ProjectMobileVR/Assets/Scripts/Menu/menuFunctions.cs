@@ -18,7 +18,7 @@ public class menuFunctions : MonoBehaviour
     }
     public void goToPlay()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 
 
