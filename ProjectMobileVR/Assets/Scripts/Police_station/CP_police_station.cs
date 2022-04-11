@@ -18,6 +18,7 @@
 
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Sends messages to gazed GameObject.
@@ -26,7 +27,7 @@ public class CP_police_station : MonoBehaviour
 {
     private const float _maxDistance = 3.0f;
     private GameObject _gazedAtObject = null;
-
+    public int contador = 0;
     /// <summary>
     /// Update is called once per frame.
     /// </summary>
@@ -47,15 +48,21 @@ public class CP_police_station : MonoBehaviour
                 }
                 else if (hit.transform.name == "Robbie")
                 {
-                    print("Acabas de hablar con el oficial Robbie");
+                    //print("Acabas de hablar con el oficial Robbie");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Robbie");
                 }
                 else if (hit.transform.name == "Mario")
                 {
                     print("Acabas de hablar con el oficial Mario");
+                    SceneManager.LoadScene(5);
+
                 }
                 else if (hit.transform.name == "Peter")
                 {
-                    print("Acabas de hablar con el oficial Peter");
+                    //print("Acabas de hablar con el oficial Peter");
+                    print("El contador es: " + contador);
                 }
                 else if (hit.transform.name == "Bruce")
                 {
@@ -67,7 +74,8 @@ public class CP_police_station : MonoBehaviour
                 }
                 else if (hit.transform.name == "Rocky")
                 {
-                    print("Acabas de hablar con el oficial Rocky");
+                    //print("Acabas de hablar con el oficial Rocky");
+                    print("El contador es: " + static_information.contador);
                 }
                 else if (hit.transform.name == "Arthur")
                 {
