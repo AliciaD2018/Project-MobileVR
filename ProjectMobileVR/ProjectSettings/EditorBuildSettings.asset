@@ -23,5 +23,38 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/video_scene.unity
     guid: bfa6ba8886501f24daddd258e18bdc78
+  - enabled: 1
+    path: Assets/Scenes/quePasoAlFinal.unity
+    guid: 9df71ded8af51a94196ab158c275e1b6
+  - enabled: 1
+    path: Assets/Scenes/Carcel.unity
+    guid: 795f6f87e5ffc054d82154735ba38c9d
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/INFO.unity
+    guid: d3bc70fa389a8ad43a1d5466b3b33037
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/RobbieInt.unity
+    guid: 608b1ae58dca6564a8d7a425f134bad2
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/MarioInt.unity
+    guid: ebf36d5bfd042c846b13ffce50765e1f
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/PeterInt.unity
+    guid: 8ce5f8dc91108e043a700c73baaa3f69
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/BruceInt.unity
+    guid: dcae24f7088f8df4f87007a45f2977aa
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/MichaelInt.unity
+    guid: 0b0c4f98d706da54f997a128f655b160
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/RockyInt.unity
+    guid: 0c157d07a8f83e64cb8ebfdcb50120c0
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/ArthurInt.unity
+    guid: a5d4f1d0ce9f6ce4e987e12d61702d32
+  - enabled: 1
+    path: Assets/Scenes/Interrogations/GeorgeInt.unity
+    guid: 51f53591d323ccd4b9cc453f770b0ee2
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cdf32a03d962d014cb9ef749480c813f, type: 2}

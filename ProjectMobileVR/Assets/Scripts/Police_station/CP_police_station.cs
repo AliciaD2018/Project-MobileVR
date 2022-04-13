@@ -44,46 +44,58 @@ public class CP_police_station : MonoBehaviour
 
                 if(hit.transform.name == "John")
                 {
-                    print("Acabas de hablar con el oficial John");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("John");
                 }
                 else if (hit.transform.name == "Robbie")
                 {
-                    //print("Acabas de hablar con el oficial Robbie");
                     _gazedAtObject?.SendMessage("OnPointerExit");
                     _gazedAtObject = hit.transform.gameObject;
                     _gazedAtObject.SendMessage("Robbie");
                 }
                 else if (hit.transform.name == "Mario")
                 {
-                    print("Acabas de hablar con el oficial Mario");
-                    SceneManager.LoadScene(5);
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Mario");
 
                 }
                 else if (hit.transform.name == "Peter")
                 {
-                    //print("Acabas de hablar con el oficial Peter");
-                    print("El contador es: " + contador);
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Peter");
                 }
                 else if (hit.transform.name == "Bruce")
                 {
-                    print("Acabas de hablar con el oficial Bruce");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Bruce");
                 }
                 else if (hit.transform.name == "Michael")
                 {
-                    print("Acabas de hablar con el oficial Michael");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Michael");
                 }
                 else if (hit.transform.name == "Rocky")
                 {
-                    //print("Acabas de hablar con el oficial Rocky");
-                    print("El contador es: " + static_information.contador);
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Rocky");
                 }
                 else if (hit.transform.name == "Arthur")
                 {
-                    print("Acabas de hablar con el oficial Arthur");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("Arthur");
                 }
                 else if (hit.transform.name == "George")
                 {
-                    print("Acabas de hablar con el oficial George");
+                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("George");
                 }
 
             }
