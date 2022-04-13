@@ -387,7 +387,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 131111768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: aacc61e600465264e9d5b138d1d76c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1238727937}
@@ -590,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 60
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1110301895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: aacc61e600465264e9d5b138d1d76c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1238727937}
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: am
+  m_text: were
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: going to be
+  m_text: did
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1855,7 +1855,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 450, y: 100}
+  m_SizeDelta: {x: 650, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464072305
 MonoBehaviour:
@@ -1877,7 +1877,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I ____ in my house in Desamparados
+  m_text: "Yes, I did, I know this man from before. He _____ my former boss but I\u2019d
+    never do any sort of action against his health."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2198,7 +2199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1538805993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: aacc61e600465264e9d5b138d1d76c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1238727937}
@@ -2715,7 +2716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1760561550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: aacc61e600465264e9d5b138d1d76c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1238727937}
@@ -2833,7 +2834,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8b1524e6272e164cbbcc5a4824f5a99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aacc04a4c968b4e4aa295c9bc19694d1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2946,6 +2947,7 @@ GameObject:
   - component: {fileID: 1967333846}
   - component: {fileID: 1967333845}
   - component: {fileID: 1967333844}
+  - component: {fileID: 1967333848}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3064,6 +3066,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967333848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967333842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1001 &1992278532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3317,7 +3337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: So tell me, where were you the last Wednesday?
+  m_text: Did you know this man from before?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

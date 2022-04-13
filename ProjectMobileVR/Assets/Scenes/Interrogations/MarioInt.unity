@@ -219,7 +219,7 @@ RectTransform:
   m_GameObject: {fileID: 193328266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.077, y: 0.84415, z: 1}
   m_Children: []
   m_Father: {fileID: 1227437581}
   m_RootOrder: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I ____ in my house in Desamparados
+  m_text: "No, I didn\u2019t. I ___ my dog to be respectful and lovely."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: going to be
+  m_text: will train
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 422354842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f5e2e3b03b8247e4094f5be6a75db3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1864672268}
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: was
+  m_text: "trained\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1146,7 +1146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 50
+      value: 163
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1186,7 +1186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 772238717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f5e2e3b03b8247e4094f5be6a75db3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1864672268}
@@ -1933,7 +1933,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8b1524e6272e164cbbcc5a4824f5a99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 80898096482c44e40a4c690f3571491b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2090,7 +2090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: So tell me, where were you the last Wednesday?
+  m_text: Did you train this dog to attack people?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2400,7 +2400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1690775693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f5e2e3b03b8247e4094f5be6a75db3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1864672268}
@@ -2516,7 +2516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 164
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2556,7 +2556,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1710700246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f5e2e3b03b8247e4094f5be6a75db3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 1864672268}
@@ -2822,6 +2822,7 @@ GameObject:
   - component: {fileID: 1965489528}
   - component: {fileID: 1965489527}
   - component: {fileID: 1965489526}
+  - component: {fileID: 1965489530}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2940,6 +2941,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1965489530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965489524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1 &2088564464
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +3270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: am
+  m_text: train
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

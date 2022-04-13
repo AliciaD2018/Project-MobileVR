@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: was
+  m_text: didn't
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -569,6 +569,7 @@ GameObject:
   - component: {fileID: 354529295}
   - component: {fileID: 354529294}
   - component: {fileID: 354529293}
+  - component: {fileID: 354529297}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -687,6 +688,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &354529297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354529291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1 &511025400
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: So tell me, where were you the last Wednesday?
+  m_text: Did you commit animal abuse that could lead to this situation?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1215,7 +1234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 866681255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f72a179f361dacc438a25493456b59f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 321164384}
@@ -1291,7 +1310,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: am
+  m_text: can
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1534,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 164
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1574,7 +1593,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1073249899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f72a179f361dacc438a25493456b59f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 321164384}
@@ -1690,7 +1709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -68
+      value: 158
       objectReference: {fileID: 0}
     - target: {fileID: 22400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1730,7 +1749,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1080605109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f72a179f361dacc438a25493456b59f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 321164384}
@@ -2137,7 +2156,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8b1524e6272e164cbbcc5a4824f5a99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4f20fa164d204cf4b8e67d51651c0e55, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2532,7 +2551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: going to be
+  m_text: wasn't
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2666,7 +2685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I ____ in my house in Desamparados
+  m_text: I _____ commit any sort of animal abuse sir!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2880,7 +2899,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815568581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: f72a179f361dacc438a25493456b59f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 321164384}

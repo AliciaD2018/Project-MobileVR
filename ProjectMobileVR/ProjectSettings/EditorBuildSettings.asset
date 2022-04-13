@@ -57,4 +57,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Interrogations/GeorgeInt.unity
     guid: 51f53591d323ccd4b9cc453f770b0ee2
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a7d75f470283f7a4ab455bd37567f9e8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cdf32a03d962d014cb9ef749480c813f, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 1e866734774905c4a85007d9fe62ae60, type: 2}

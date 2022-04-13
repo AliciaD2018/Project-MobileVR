@@ -434,7 +434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: going to be
+  m_text: taught
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 369092309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: b866885c40413da43935694e62dd10b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 23431009}
@@ -1054,6 +1054,7 @@ GameObject:
   - component: {fileID: 526337272}
   - component: {fileID: 526337271}
   - component: {fileID: 526337270}
+  - component: {fileID: 526337274}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1172,6 +1173,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &526337274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526337268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1001 &645255033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1309,7 +1328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 645255036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: b866885c40413da43935694e62dd10b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 23431009}
@@ -1385,7 +1404,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: So tell me, where were you the last Wednesday?
+  m_text: 'We know that the dog is yours so tell me, since when did you train the
+    dog to run over people?
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1588,7 +1610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: am
+  m_text: teached
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1819,7 +1841,7 @@ RectTransform:
   m_GameObject: {fileID: 1278460546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.88908, z: 1}
   m_Children: []
   m_Father: {fileID: 1327625735}
   m_RootOrder: 0
@@ -1849,7 +1871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I ____ in my house in Desamparados
+  m_text: " I didn\u2019t ____ my dog to run over other people sir!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2275,7 +2297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: was
+  m_text: teach
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2880,7 +2902,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1831705315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: b866885c40413da43935694e62dd10b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 23431009}
@@ -2926,7 +2948,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8b1524e6272e164cbbcc5a4824f5a99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a565247df5ed7604981a8dd3974a1301, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3375,7 +3397,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2103395893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffaabc725b2887a4fb221702e97dbb36, type: 3}
+  m_Script: {fileID: 11500000, guid: b866885c40413da43935694e62dd10b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioYes: {fileID: 23431009}
