@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Threading;
 public class actions : MonoBehaviour
 {
     
     public AudioSource audioYes;
     public AudioSource audioNot;
     public AudioSource audioNotBack;
+
     public void opcionErronea()
     {
         TextMeshProUGUI textMesH = GameObject.Find("bg_image/hmmm").GetComponent<TextMeshProUGUI>();
@@ -20,6 +22,7 @@ public class actions : MonoBehaviour
     {
         TextMeshProUGUI textMesH = GameObject.Find("bg_image/hmmm").GetComponent<TextMeshProUGUI>();
         textMesH.text = "Good answer, you can\ngo back to main room";
+
         audioYes.Play();
         static_information.Robbie = true;
 
